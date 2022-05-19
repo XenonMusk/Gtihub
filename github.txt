@@ -1,0 +1,38 @@
+git init // to initialize git to a specific folder
+
+git log // for knowing the previous commits
+
+git status // to check status 
+
+git add . //to final add to local repository
+
+git commit -m "name-of-commit" //to commit to local repository
+
+git remote add origin [LINK OF REMOTE REPO] //adding origin to remote
+
+git remote rm origin // to remove origin from remote
+
+git push -u origin master // finally push the local repo to remote repo
+
+
+git rm --cached -r . //to remove everyfile from the staging area
+
+git clone [link-of-remote-repo] //To clone a remote repository to your local machine
+
+
+git branch [branch-name]
+
+git branch
+
+git checkout [branch-name] // to switch branches
+
+git merge [branch-name]  // to merge side branch to master branch
+
+// To ignore specific files from commiting to the repository, just create a file .gitignore 
+//and type the file names(with extension) into the .gitignore file.
+
+//To change authentication
+//go to "Credential Manager"  
+//remove "Generic Permission" of github details
+
+
