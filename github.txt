@@ -14,6 +14,8 @@ git remote rm origin // to remove origin from remote
 
 git push -u origin master // finally push the local repo to remote repo
 
+git push -f origin master // FORCE push
+
 
 git rm --cached -r . //to remove everyfile from the staging area
 
